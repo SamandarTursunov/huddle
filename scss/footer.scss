@@ -1,0 +1,49 @@
+/*FOOTER ------------------------------------------------------------------*/
+.footer {
+  padding: 24px 0px 40px 0px;
+
+  &__icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  &__icons > *:not(:last-child) {
+    margin: 0px 18px 0px 0px;
+  }
+  &__icon:first-child {
+    cursor: pointer;
+    background-image: url(../images/icons/01.svg);
+    padding: 25px;
+    transition: all 0.3s ease 0s;
+
+    &:hover{
+      background-image: url(../images/icons/01-hover.svg);
+    }
+  }
+  &__icon:nth-child(2) {
+    cursor: pointer;
+    background-image: url(../images/icons/02.svg);
+    padding: 25px;
+    transition: all 0.3s ease 0s;
+
+    &:hover{
+      background-image: url(../images/icons/02-hover.svg);
+    }
+  }
+  &__icon:nth-child(3) {
+    cursor: pointer;
+    background-image: url(../images/icons/03.svg);
+    padding: 25px;
+    transition: all 0.3s ease 0s;
+
+    &:hover{
+      background-image: url(../images/icons/03-hover.svg);
+    }
+  }
+  @media (max-width: 1280px) {
+    &__icons {
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	background: #674bb1;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFF;
+	font-family: Poppins;
+	scroll-behavior: smooth;
+}
+/*--------------------------------------------------------------------------*/
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+  position: relative;
+}
+._container {
+	box-sizing: content-box;
+	max-width: 1250px;
+	margin: 0px auto;
+	padding: 0 15px;
+  position: relative;
+  z-index: 2;
+}
+._ibg {
+	position: relative;
+}
+._ibg img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+.page {
+  flex: 1 1 auto;
+}
+.img__bg-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

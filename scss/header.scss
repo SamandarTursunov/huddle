@@ -1,0 +1,12 @@
+/*HEADER -----------------------------------------------------------*/
+.header {
+  padding: 64px 0px 0px 0px;
+
+  @media (max-width: 1280px) {
+    &__img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
